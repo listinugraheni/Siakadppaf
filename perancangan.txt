@@ -1,0 +1,45 @@
+1.aplikasi apa?
+  sistem informasi akademik tpa
+
+2. Siapa pengguna sistem?
+   admin / guru / pembimbing
+   santri
+
+3. apa yang dilakukan admin?
+   login
+   data santri
+   data pembimbing
+   data mapel
+   data kelas (tiap kelas dengan santri tertentu)
+   melihat/cetak data laporan pembelajaran
+   melihat Presensi
+
+4. apa yang dilakukan pembimbing?
+   login
+   profil pembimbing
+   menginput data laporan pembelajaran
+   melihat Presensi
+
+5. apa yang dilakukan siswa?
+   absensi
+   melihat mata pembelajaran
+   melihat laporan pembelajaran
+
+6. Skema basis data?
+   - admin (id,username, passoword,nama)
+   - santri (id_santri, induk_santri, password_santri, nama-santri, alamat_santri)
+   - pembimbing (id_pembimbing, password_pembimbing, nama_pembimbing, induk_pembimbing)
+   - mapel (id_mapel, nama_mapel)
+   - laporan pembelajaran (id_laporan, nama_kategori laporan)
+   - kelas (id_kelas,id_santrikelas, nama_kelas,) // kelas I Juz amma, kelas II Al Qur'an
+   - absensi ()
+7. Tabel database
+   - tbl_tpa
+   - tbl_user
+   - tbl_siswa
+   - tbl_guru
+   - tbl_mata pembelajaran
+   - tbl_absen
+   - tbl_laporan pembelajaran
+
+8. Kelas dijadikan satu
